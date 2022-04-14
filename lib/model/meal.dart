@@ -1,7 +1,5 @@
-import 'dart:html';
 
-import 'package:flutter/cupertino.dart';
-import 'package:food_app/model/category.dart';
+
 
 enum Complexity { Mudah, Sedang, Susah }
 
@@ -38,11 +36,10 @@ var meals = [
       categories: [
         'c1',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.masakapahariini.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fspaghetti-carbonara-780x440.jpg&imgrefurl=https%3A%2F%2Fwww.masakapahariini.com%2Fresep%2Fresep-spaghetti-carbonara%2F&tbnid=gkvm05qnrTdSCM&vet=12ahUKEwib6c3or6b2AhVqyaACHR1-CdwQMygBegUIARDHAQ..i&docid=7PhI9b6MnNSHVM&w=780&h=440&q=cara%20membuat%20carbonara&hl=id&ved=2ahUKEwib6c3or6b2AhVqyaACHR1-CdwQMygBegUIARDHAQ',
+      imgUrl:'https://media.istockphoto.com/photos/carbonara-pasta-spaghetti-with-pancetta-egg-parmesan-cheese-and-cream-picture-id1065506718?k=20&m=1065506718&s=612x612&w=0&h=pRmTdqZ8unpCClvZ7JJRRUH03pRJAbAgHHyhBD-u4wQ=',
       duration: 40,
       ingredients: [
-        '2 genggam penne kering'
+        '*2 genggam penne kering'
             '1 buah jamur portobello'
             '2 lembar bacon'
             '1 lembar tipis keju cheddar'
@@ -69,8 +66,7 @@ var meals = [
       categories: [
         'c1',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.indonesiana.id%2Fimages%2Fall%2F2018%2F10%2F25%2Fgelato.jpg&imgrefurl=https%3A%2F%2Fwww.indonesiana.id%2Fread%2F128690%2Fresep-dan-cara-membuat-es-krim-gelato-khas-italia&tbnid=rxPlEDIxJUVcdM&vet=12ahUKEwj33qi2sab2AhU9i9gFHeuACYUQMygEegUIARCmAQ..i&docid=JNE_weNiaGuRGM&w=2000&h=1205&q=cara%20membuat%20gelato%20italia&hl=id&ved=2ahUKEwj33qi2sab2AhU9i9gFHeuACYUQMygEegUIARCmAQ',
+      imgUrl:'https://media.istockphoto.com/photos/italian-gelato-of-various-flavors-in-ice-cream-parlor-picture-id1151706409?b=1&k=20&m=1151706409&s=170667a&w=0&h=zkM7vI-y70nslRrQKheOzm0WHDlUjYJ8usJxKWX3Tg8=',
       duration: 40,
       ingredients: [
         '500 ml (2 cup) susu atau susu dan krim dalam jumlah yang sama '
@@ -95,8 +91,7 @@ var meals = [
       categories: [
         'c2',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.resepedia.id%2Fassets%2Fimages%2F2020%2F06%2F1669571670190587-sate-kambing.jpg&imgrefurl=https%3A%2F%2Fresepedia.id%2Fresep%2Fsate-kambing&tbnid=N6Ky83w7PSzFRM&vet=12ahUKEwiBzdmapqb2AhXgYmwGHS3MCj0QMygBegUIARDIAQ..i&docid=olHRhNh2YeXLRM&w=1200&h=864&q=sate%20kambing&ved=2ahUKEwiBzdmapqb2AhXgYmwGHS3MCj0QMygBegUIARDIAQ',
+      imgUrl:'https://media.istockphoto.com/photos/satay-or-sate-kambing-meat-satay-served-with-slice-red-onion-chili-picture-id1336436044?k=20&m=1336436044&s=612x612&w=0&h=qjuLbfyBvJSqpzGG3KIsBaK2vUZeviIGEvaKKogqbzI=',
       duration: 40,
       ingredients: ['1 kambing', '1 tomat', '1 kol', '1 bw putih'],
       steps: [
@@ -113,8 +108,7 @@ var meals = [
       categories: [
         'c2',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fawsimages.detik.net.id%2Fcommunity%2Fmedia%2Fvisual%2F2020%2F11%2F24%2Frendang-3_169.jpeg%3Fw%3D1200&imgrefurl=https%3A%2F%2Ffood.detik.com%2Finfo-kuliner%2Fd-5567228%2Fresep-rendang-sapi-khas-padang-dan-tips-memasaknya&tbnid=AVwQ56p2HkSkiM&vet=12ahUKEwj5iuP9pqb2AhUKQWwGHVm1ArEQMygAegUIARDCAQ..i&docid=9yWyi7F8hgVz1M&w=1200&h=677&q=rendang&ved=2ahUKEwj5iuP9pqb2AhUKQWwGHVm1ArEQMygAegUIARDCAQ',
+      imgUrl:'https://media.istockphoto.com/photos/rendang-or-randang-picture-id1252863118?k=20&m=1252863118&s=612x612&w=0&h=FEW7D6vnB1j5GGsincpqSqi-TjXF0FzzX9GoVI8Z7q4=',
       duration: 40,
       ingredients: [
         ' 500 gr daging'
@@ -154,8 +148,7 @@ var meals = [
       categories: [
         'c3',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fblue.kumparan.com%2Fimage%2Fupload%2Ffl_progressive%2Cfl_lossy%2Cc_fill%2Cq_auto%3Abest%2Cw_640%2Fv1610256443%2Fnp4k74ooxo87jdiiulm2.jpg&imgrefurl=https%3A%2F%2Fkumparan.com%2FResep-makanan%2Fresep-bebek-peking-anti-keras-1uwz4urP7Yc&tbnid=No6P60bns55NHM&vet=12ahUKEwinipSJtKb2AhXMUWwGHQSOCl8QMygGegUIARDFAQ..i&docid=qrdgNyImsXVY0M&w=640&h=320&q=cara%20membuat%20Bebek%20Peking.&hl=id&ved=2ahUKEwinipSJtKb2AhXMUWwGHQSOCl8QMygGegUIARDFAQ',
+      imgUrl:'https://media.istockphoto.com/photos/bebek-goreng-indonesian-fried-duck-dish-with-green-vegetables-and-picture-id692462534?k=20&m=692462534&s=612x612&w=0&h=8gGko7zdbIP2xNVwVn7BGCkmoICMD5A-ZMRGSByxPoQ=',
       duration: 40,
       ingredients: [
         '1 bebek utuh '
@@ -193,8 +186,7 @@ var meals = [
       categories: [
         'c3',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.resepedia.id%2Fassets%2Fimages%2F2021%2F04%2F1697664137464436-ayam-kungpao.jpg&imgrefurl=https%3A%2F%2Fresepedia.id%2Fresep%2Fayam-kungpao&tbnid=E51wAgVe0F23nM&vet=12ahUKEwjdo9PHtab2AhV2zaACHVigClEQMygKegUIARDkAQ..i&docid=-ru-92iiRj9r0M&w=1200&h=920&q=cara%20membuat%20ayam%20kungpao&hl=id&ved=2ahUKEwjdo9PHtab2AhV2zaACHVigClEQMygKegUIARDkAQ',
+      imgUrl:'https://media.istockphoto.com/photos/composition-with-delicious-sushi-rolls-japanese-food-picture-id1218016941?k=20&m=1218016941&s=612x612&w=0&h=DIBkThP29pqJA9GUWJN9D1AC0jIZnAqeXuuOC8-5H9g=',
       duration: 40,
       ingredients: [
         'Bahan yang dibutuhkan:'
@@ -233,13 +225,12 @@ var meals = [
 
 
   Meal(
-      id: 'm',
+      id: 'm8',
       title: 'Sushi Roll',
       categories: [
         'c4',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.idntimes.com%2Fcontent-images%2Fcommunity%2F2019%2F06%2Fkimbap-korean-sushi-rolls-2118795-hero-5b7dbdd346e0fb00250718b8-739c846ce6ce57499b852525a1ba6a04_600x400.jpg&imgrefurl=https%3A%2F%2Fwww.idntimes.com%2Ffood%2Frecipe%2Fcrhisterra%2Ftips-mudah-membuat-sushi-rumahan-exp-c1c2&tbnid=tJM-id2HyeifdM&vet=12ahUKEwjn-u-4rKb2AhWq73MBHQjmAdQQMygHegUIARDUAQ..i&docid=k_yrXJ5p1ipx4M&w=600&h=400&q=cara%20membuat%20sushi&ved=2ahUKEwjn-u-4rKb2AhWq73MBHQjmAdQQMygHegUIARDUAQ',
+      imgUrl:'https://media.istockphoto.com/photos/japanese-restaurant-sushi-dish-picture-id497022342?k=20&m=497022342&s=612x612&w=0&h=VkCoBfI4q67KiRfyIJ-bQx3S1EyjTfEWL2DtP9Ird-0=',
       duration: 40,
       ingredients: [
         '2 genggam beras'
@@ -284,8 +275,7 @@ var meals = [
       categories: [
         'c4',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fsmoked-salmon-nigiri-sushi-picture-id639838836&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fid%2Ffoto%2Fsalmon-nigiri-sushi-asap-gm639838836-115556075&tbnid=u3h5zrd3kUXlhM&vet=12ahUKEwi48-Crrqb2AhV2zaACHVigClEQMygFegUIARDPAQ..i&docid=fVQpnshviKkVDM&w=1024&h=1024&q=salmon%20nigiri&ved=2ahUKEwi48-Crrqb2AhV2zaACHVigClEQMygFegUIARDPAQ',
+      imgUrl:'https://media.istockphoto.com/photos/sushi-and-sushi-roll-set-rice-bowls-gunkan-set-tuna-tataki-picture-id1300830637?k=20&m=1300830637&s=612x612&w=0&h=LTWlbef0iMEw83cWXlqY1i88FInQB15MCDyAYzhGcB8=',
       duration: 40,
       ingredients: [
         'Ikan salmon segar'
@@ -316,8 +306,7 @@ var meals = [
       categories: [
         'c5',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.popbela.com%2Fcontent-images%2Fpost%2F20190822%2Fdaf27aa748bc9b16f643be12ab8e83f5_750x500.jpg&imgrefurl=https%3A%2F%2Fwww.popbela.com%2Flifestyle%2Ffood%2Fandinarahayu%2Fbuat-si-pencinta-gurih-ini-cara-praktis-masak-mac-and-cheese&tbnid=qNTOj_tNPY-hmM&vet=12ahUKEwjvrPPitqb2AhWfRmwGHUn5DNsQMygBegUIARDNAQ..i&docid=tVFPR_DPeQZy3M&w=750&h=500&q=macaroni%20and%20cheese%20adalah&ved=2ahUKEwjvrPPitqb2AhWfRmwGHUn5DNsQMygBegUIARDNAQ',
+      imgUrl:'https://media.istockphoto.com/photos/mac-and-cheese-traditional-american-dish-macaroni-pasta-and-a-cheese-picture-id1167505438?k=20&m=1167505438&s=612x612&w=0&h=EmhQZRbdhDh5PS-I2D62V36Dv92uhREcPM_q9yAFfI8=',
       duration: 40,
       ingredients: [
         '1. 200 gr makaroni'
@@ -344,8 +333,7 @@ var meals = [
       categories: [
         'c5',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg-global.cpcdn.com%2Frecipes%2F9a3c95348ca4f940%2F680x482cq70%2Fhot-dog-saos-bolognese-foto-resep-utama.jpg&imgrefurl=https%3A%2F%2Fcookpad.com%2Fid%2Fresep%2F1789016-hot-dog-saos-bolognese&tbnid=Ohn2PzgN5lkTcM&vet=12ahUKEwiT6M6duKb2AhXClOYKHQDPCvwQMygAegUIARDGAQ..i&docid=Sn1RUfOyTb2kIM&w=680&h=482&q=cara%20membuat%20hot%20dog%20bolognese&ved=2ahUKEwiT6M6duKb2AhXClOYKHQDPCvwQMygAegUIARDGAQ',
+      imgUrl:'https://media.istockphoto.com/photos/homemade-detroit-style-chili-dog-picture-id1163021327?k=20&m=1163021327&s=612x612&w=0&h=e72DJWRlJxhySnkn-3xeCpSxaszgkjsHc2azsprWJsA=',
       duration: 40,
       ingredients: [
         '6 buah roti hot dog'
@@ -378,8 +366,7 @@ var meals = [
       categories: [
         'c6',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fd12man5gwydfvl.cloudfront.net%2Fwp-content%2Fuploads%2F2017%2F08%2Fshutterstock_1587534286-1.jpg&imgrefurl=https%3A%2F%2Fwww.happyfresh.id%2Fblog%2Fresep%2Fnasi-kebuli-kambing-arab-betawi%2F&tbnid=59eRq8JzzcN4zM&vet=12ahUKEwih3qi6uqb2AhVUjtgFHd1PCJUQMygAegUIARDEAQ..i&docid=E6MHRvF7lXRx6M&w=2280&h=1373&q=cara%20membuat%20nasi%20kebuli&hl=id&ved=2ahUKEwih3qi6uqb2AhVUjtgFHd1PCJUQMygAegUIARDEAQ',
+      imgUrl:'https://media.istockphoto.com/photos/-picture-id1341364870?k=20&m=1341364870&s=612x612&w=0&h=U5XkMfrV4UW0heSWYT2iT74wuQXrefqOaVdulBXCCfc=',
       duration: 40,
       ingredients: [
         '500 g beras, cuci bersih'
@@ -421,8 +408,7 @@ var meals = [
       categories: [
         'c6',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.promediateknologi.com%2Fcrop%2F0x0%3A0x0%2Fx%2Fphoto%2F2021%2F10%2F30%2F1886233424.jpg&imgrefurl=https%3A%2F%2Fwww.muslimterkini.com%2Fragam%2Fpr-901577215%2Fbedah-resep-makanan-khas-timur-tengah-kebab-sapi-samosa-dan-mutabbaq-disertai-cara-membuat-yang-simpel&tbnid=7FGjaTsv_JCJhM&vet=12ahUKEwiQ_-mjvKb2AhXOUWwGHeTdAbwQMygCegUIARC_AQ..i&docid=4KeGInaJE2sCZM&w=1280&h=1071&q=Cara%20membuat%20Kebab%20khas%20arab&hl=id&ved=2ahUKEwiQ_-mjvKb2AhXOUWwGHeTdAbwQMygCegUIARC_AQ',
+      imgUrl:'https://media.istockphoto.com/photos/greek-gyros-wraped-in-a-pita-bread-on-a-wooden-background-picture-id959937952?k=20&m=959937952&s=612x612&w=0&h=ghcG1kUc7kKehJ_sCILo6QPsmRjZetgX4ExjnyVNTpg=',
       duration: 40,
       ingredients: [
         'Bahan Utama Kebab:'
@@ -472,8 +458,7 @@ var meals = [
       categories: [
         'c7',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.tokomesin.com%2Fwp-content%2Fuploads%2F2017%2F10%2F61309233_H2TlR4lY8A2FxtRo1LI4lC98XCVtukKDjVAG-E_wFf8.jpg&imgrefurl=https%3A%2F%2Fwww.tokomesin.com%2F5-cara-membuat-roti-naan-yang-terlihat-sulit-tapi-sebenarnya-gampang.html&tbnid=eJ2MPxW_jARsGM&vet=12ahUKEwjamc3Bwab2AhX4lNgFHdaUD_sQMygGegUIARDVAQ..i&docid=YzZsS8tZ9eIwxM&w=200&h=200&q=cara%20membuat%20%20Naan&ved=2ahUKEwjamc3Bwab2AhX4lNgFHdaUD_sQMygGegUIARDVAQ',
+      imgUrl:'https://media.istockphoto.com/photos/butter-chicken-served-with-homemade-indian-naan-bread-picture-id618457124?k=20&m=618457124&s=612x612&w=0&h=TjiqBwJQqr3xy-_8AGGwmbyOgbDCOEQp0exKK92gSBo=',
       duration: 40,
       ingredients: [
         '240 gram tepung terigu protein sedang'
@@ -510,8 +495,7 @@ var meals = [
       categories: [
         'c7',
       ],
-      imgUrl:
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Ffood.detik.com%2Fnasi%2Fd-5646681%2Fresep-nasi-biryani-ayam-yang-berempah-sedap-dan-praktis&psig=AOvVaw0TPhpYmnxxecX20NLaWz2U&ust=1646286112507000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMD6lOvbpvYCFQAAAAAdAAAAABAD',
+      imgUrl:'https://media.istockphoto.com/photos/masala-mutton-briyani-picture-id1351103687?k=20&m=1351103687&s=612x612&w=0&h=ZnSucJoMrRwx2iWAOuHSFulzBbKUZH5qqmK1OKj5ICc=',
       duration: 40,
       ingredients: [
         '250 gram daging kambing, potong dadu 3 sentimeter'
@@ -551,8 +535,7 @@ var meals = [
       categories: [
         'c8',
       ],
-      imgUrl:
-      'https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.resepedia.id%2Fassets%2Fimages%2F2021%2F02%2F1692231306205952-french-toast.jpg&imgrefurl=https%3A%2F%2Fresepedia.id%2Fresep%2Ffrench-toast&tbnid=mcFWcOUixYruGM&vet=12ahUKEwjV2Krx3Kb2AhVqyaACHZSEA84QMygEegUIARDIAQ..i&docid=8RfYUJsXryYcdM&w=1200&h=798&q=cara%20membuat%20french%20toast&hl=id&ved=2ahUKEwjV2Krx3Kb2AhVqyaACHZSEA84QMygEegUIARDIAQ',
+      imgUrl:'https://media.istockphoto.com/photos/traditional-french-toasts-with-blueberries-strawberries-and-powdered-picture-id1225582525?k=20&m=1225582525&s=612x612&w=0&h=XrQIORxdQZseKhhMPXA3V7zNyNFMiECTwxSo-bNOoEE=',
       duration: 40,
       ingredients: [
         '3 lembar roti tawar'
@@ -575,8 +558,7 @@ var meals = [
       categories: [
         'c8',
       ],
-      imgUrl:
-          'https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.resepedia.id%2Fassets%2Fimages%2F2021%2F04%2F1696944831134386-potato-gratin.jpg&imgrefurl=https%3A%2F%2Fresepedia.id%2Fresep%2Fpotato-gratin&tbnid=M12hQ2rfWTag9M&vet=12ahUKEwiqu4mG36b2AhWeArcAHYb6DAQQMygEegUIARDSAQ..i&docid=KXDjGtdX6Yb1uM&w=1200&h=816&q=cara%20membuat%20Potato%20gratin&hl=id&ved=2ahUKEwiqu4mG36b2AhWeArcAHYb6DAQQMygEegUIARDSAQ',
+      imgUrl:'https://media.istockphoto.com/photos/potato-gratin-picture-id1165297537?k=20&m=1165297537&s=612x612&w=0&h=WOnLUka3grMnNhfy0oGiYmTgDLcx2DibSs6gqlLuItY=',
       duration: 40,
       ingredients: [
         '3 buah kentang ukuran sedang'
